@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "public": true,
+  "regions": ["lhr1"],
+  "redirects": [
+    { "source": "/project(.*)", "destination": "https://github.com/orgs/renditions/projects/1?fullscreen=true", "permanent": true },
+    { "source": "(.*)", "destination": "https://github.com/renditions" }
+  ]
+}
